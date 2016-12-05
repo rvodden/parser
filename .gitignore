@@ -69,6 +69,11 @@ local.properties
 # Code Recommenders
 .recommenders/
 
+# 
+MANIFEST.MF
+pom.properties
+pom.xml
+
 
 ### Java ###
 *.class
