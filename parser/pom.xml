@@ -73,6 +73,11 @@
 			<version>9.4.0.RC2</version>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>com.vodden.math</groupId>
+			<artifactId>parser-acceptance-features</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<plugins>
