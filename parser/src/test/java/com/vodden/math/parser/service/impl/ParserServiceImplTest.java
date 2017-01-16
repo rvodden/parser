@@ -2,11 +2,10 @@ package com.vodden.math.parser.service.impl;
 
 import org.junit.runner.RunWith;
 
-import net.serenitybdd.cucumber.CucumberWithSerenity;
-
 import cucumber.api.CucumberOptions;
+import cucumber.api.junit.Cucumber;
 
-@RunWith(CucumberWithSerenity.class)
+@RunWith(Cucumber.class)
 @CucumberOptions(features = "classpath:features", glue = "com.vodden.math.parser.service.impl.steps")
 public class ParserServiceImplTest {
 	/*

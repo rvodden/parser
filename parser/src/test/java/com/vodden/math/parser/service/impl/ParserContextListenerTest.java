@@ -14,11 +14,10 @@ import org.junit.runner.RunWith;
 import com.google.inject.servlet.GuiceFilter;
 import com.vodden.math.parser.service.ParserContextListener;
 
-import net.serenitybdd.cucumber.CucumberWithSerenity;
-
 import cucumber.api.CucumberOptions;
+import cucumber.api.junit.Cucumber;
 
-@RunWith(CucumberWithSerenity.class)
+@RunWith(Cucumber.class)
 @CucumberOptions(features = "classpath:features", glue = "com.vodden.math.parser.service.impl.listener.steps")
 public class ParserContextListenerTest {
 	

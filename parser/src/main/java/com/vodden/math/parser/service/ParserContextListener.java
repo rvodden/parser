@@ -1,7 +1,6 @@
 package com.vodden.math.parser.service;
 
 import java.util.HashMap;
-import java.util.logging.Level;
 import java.util.logging.Logger;
 
 import com.google.inject.Guice;
@@ -44,12 +43,12 @@ public class ParserContextListener extends GuiceServletContextListener {
 	}
 	
 	private void configureLogging() {
-		logger.info("Setting up root logger to log fine messages");
+		/*logger.info("Setting up root logger to log fine messages");
 		Logger rootLog = Logger.getLogger("");
 		rootLog.setLevel( Level.FINE );
 		rootLog.getHandlers()[0].setLevel( Level.FINE );
 		
-		logger.fine("Fine logging is working now");
+		logger.fine("Fine logging is working now"); */
 	}
 
 }

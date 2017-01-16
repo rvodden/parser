@@ -2,7 +2,6 @@
 <!DOCTYPE xml>
 <Context>
 	<JarScanner>
-		<JarScanFilter pluggabilitySkip="xercesImpl.jar" />
-		<!-- ,xml-apis.jar,serializer.jar,jcommander-1.30.jar,serializer.jar,jruby-complete-1.7.4.jar, -->
+		<JarScanFilter pluggabilitySkip="${tomcat.util.scan.StandardJarScanFilter.jarsToSkip},xml-apis.jar,serializer.jar,jcommander-1.30.jar,serializer.jar,jruby-complete-1.7.4.jar,xercesImpl.jar" />
 	</JarScanner>
 </Context>
