@@ -6,7 +6,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "classpath:features", glue = "com.vodden.math.parser.service.impl.steps")
+@CucumberOptions(features = "classpath:features", glue = "com.vodden.math.parser.acceptance.steps")
 public class ParserServiceImplTest {
 	/*
 	@Test

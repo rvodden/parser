@@ -7,7 +7,7 @@ public class ParserImpl implements Parser {
 	static final Logger logger = Logger.getLogger(ParserImpl.class.getName());
 	
 	public ParserImpl() {
-		logger.info("Creating ParserImpl");
+		logger.fine("Creating ParserImpl");
 	}
 
 	@Override
